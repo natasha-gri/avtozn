@@ -1,0 +1,44 @@
+@media (max-width: 480px) and (min-height: 481px) {
+
+  .contacts{
+    flex-direction: column;
+    margin-top: 35px;
+    &-content{
+        min-width: 0;
+        max-width: 100%;
+        h2{
+            width: 77%;
+            margin: 0 auto 21px auto;
+            text-align: center;
+        }
+        &-cols{
+            flex-direction: column;
+            width: 70%;
+            margin: 0 auto;
+            &-col{
+                width: 100%;
+                &-item{
+                min-height: 106px;
+                &-svg{
+                    width: 30%;
+                    height: 42px;
+                }
+                &-text{
+                    width: 70%;
+                }
+            }
+            }
+        }
+    }
+
+    &-maping{
+        max-width: 100%;
+        height: 284px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+} 
+
+
+/* end */
+}

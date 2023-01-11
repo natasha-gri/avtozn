@@ -1,0 +1,33 @@
+@media (max-width: 480px) and (min-height: 481px) {
+
+/* Красная кнопка */
+.main-header-button {
+  display: flex;
+  position: inherit;
+  width: 22%;
+  background-color: #ec1b29;
+  border: none;
+  border-radius: 12px;
+  padding: 7px 5px 8px 5px;
+  margin-bottom: 0;
+  z-index: 100;
+  align-items: center;
+  justify-content: center;
+  img {
+      height: 32px;
+      margin-right: 0;
+      filter: invert(1);
+  }
+  span {
+      display: none;
+  }
+}
+
+/* Btn-ripple */
+.btn{
+  width: 100%;
+}
+
+
+/* end */
+}

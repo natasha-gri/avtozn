@@ -1,0 +1,40 @@
+/* 1desctop-от 1600 до 1920 */
+@import '1desctop-1600-1920/base/reset';
+@import '1desctop-1600-1920/helpers/variables';
+@import '1desctop-1600-1920/helpers/model';
+@import '1desctop-1600-1920/base/typography';
+@import '1desctop-1600-1920/layout/b1-header';
+@import '1desctop-1600-1920/layout/body1-home';
+@import '1desctop-1600-1920/layout/body2-services';
+@import '1desctop-1600-1920/layout/body3-questions';
+@import '1desctop-1600-1920/layout/body4-contacts';
+@import '1desctop-1600-1920/layout/b2-footer'; 
+@import '1desctop-1600-1920/components/buttons';
+@import '1desctop-1600-1920/components/icons';
+
+/* tablet-640-926 and landscape ОРАНЖЕВЫЙ*/
+@import '6mobile-640-926-land/helpers/mob-variables';
+@import '6mobile-640-926-land/helpers/mob-model';
+@import '6mobile-640-926-land/base/mob-typography';
+@import '6mobile-640-926-land/layout/b1-mob-header';
+@import '6mobile-640-926-land/layout/mob-body1-home';
+@import '6mobile-640-926-land/layout/mob-body2-services';
+@import '6mobile-640-926-land/layout/mob-body3-questions';
+@import '6mobile-640-926-land/layout/mob-body4-contacts';
+@import '6mobile-640-926-land/layout/b2-mob-footer';
+@import '6mobile-640-926-land/components/mob-buttons';
+@import '6mobile-640-926-land/components/mob-icons';
+
+/* mob-от 360 до 480 ОРАНЖЕВЫЙ ПОРТРЕТ*/
+@import '7mobile-360-480/helpers/mob-variables';
+@import '7mobile-360-480/helpers/mob-model';
+@import '7mobile-360-480/base/mob-typography';
+@import '7mobile-360-480/layout/b1-mob-header';
+@import '7mobile-360-480/layout/mob-body1-home';
+@import '7mobile-360-480/layout/mob-body2-services';
+@import '7mobile-360-480/layout/mob-body3-questions';
+@import '7mobile-360-480/layout/mob-body4-contacts';
+@import '7mobile-360-480/layout/b2-mob-footer';
+// @import '7mobile-360-480/layout/mob-main-mob';
+@import '7mobile-360-480/components/mob-buttons';
+@import '7mobile-360-480/components/mob-icons';

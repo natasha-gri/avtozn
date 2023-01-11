@@ -1,0 +1,252 @@
+@media (max-width: 480px) {
+
+.top-header-mob {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $bg;
+  width: 100%;
+  height: 75px;
+  &-logocont{
+    width: 69%;
+  }
+}
+
+
+.hr-main-header{
+  background-color: $blue;
+    &-menu {
+    display: grid;
+    grid-template-columns: 1fr 1px 1fr;
+    grid-template-rows: 245px 245px;
+    
+    &-link{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-end;
+      padding-bottom: 35%;
+      position: relative;
+      text-decoration: none;
+      &:hover{
+        background-color: #ffffff0d;
+      }
+      &:nth-child(1) img{
+        width: 26%;
+      }
+      &:nth-child(3) img{
+        width: 29%;
+      }
+      &:nth-child(4) img{
+        width: 24%;
+      }
+      &:nth-child(6) img{
+        width: 21%;
+      }
+      &:nth-child(1){
+        &:before{
+          content: "";
+          display: block;
+          position: absolute;
+          width: 90%;
+          height: 1px;
+          bottom: 0;
+          right: 0;
+          border-bottom: 2px solid #ffffff1f;
+        }  
+      }
+      &:nth-child(3){
+        &:before{
+          content: "";
+          display: block;
+          position: absolute;
+          width: 90%;
+          height: 1px;
+          bottom: 0;
+          left: 0;
+          border-bottom: 2px solid #ffffff1f;
+        }  
+      }
+      &-dots{
+        position: relative;
+        &:nth-child(2){
+          &:before{
+          content: "";
+          display: block;
+          position: absolute;
+          width: 1px;
+          height: 90%;
+          bottom: 0;
+          border-right: 2px solid #ffffff1f;
+        }
+        }
+        &:nth-child(5){
+          &:before{
+          content: "";
+          display: block;
+          position: absolute;
+          width: 1px;
+          height: 90%;
+          top: 0;
+          border-right: 2px solid #ffffff1f;
+        }
+        }
+        
+      }
+      img{
+        filter: invert(1);
+        margin-bottom: 29px;
+      }
+      p{
+        font-family: Montserrat;
+        font-size: 20px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.3;
+        letter-spacing: 1px;
+        text-align: center;
+        color: $bg;
+      }
+    }
+    }
+}
+  
+.conection{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  &-buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 26vh;
+    &-button{
+      width: 77%;
+    }
+    &-chat{
+      width: 77%;
+      background-color: $blue;
+    }
+  }
+  &-links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -100px;
+    width: 100%;
+    height: 38vh;
+    &-phone{
+      display: flex;
+      align-items: center;
+      margin-bottom: 11px;
+    }
+    &-socislLinks{
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      text-align: center;
+      a{
+      display: block;
+      width: 14%;
+      height: 48px;
+      padding: 0 5px 0 5px;
+      box-sizing: border-box;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 7px;
+      margin-left: 7px;
+      &:hover{
+        background-color: rgba(255, 255, 255, 0.149);
+        box-shadow: 1px 3px 4px 0 #00000045;
+      }
+      &:active {
+        background-color: rgba(76, 76, 76, 0.088);
+        box-shadow: inset 1px 3px 4px 0 #00000035;
+    }
+    } 
+    }
+    
+  }
+}
+
+.btn{
+  padding-top: 3px;
+}
+
+.button-txt{
+  font-size: 23px;
+  line-height: 2;
+}
+
+
+.top-header-content-contacts-phone {
+  width: 77%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+}
+
+.top-header-content-contacts-socislLinks-inst {
+  width: 37px;
+  height: 34px;
+}
+
+.top-header-content-contacts-socislLinks-vk {
+  width: 50px;
+  height: 42px;
+}
+
+.top-header-contacts-phone-svg {
+  width: 28px;
+  height: 36px;
+}
+
+.top-header-content-contacts-phone p {
+  padding-left: 0;
+}
+
+.phone-text-header{
+  font-size: 25px;
+  margin-left: 0;
+}
+
+
+/* Прижать футер 2 */
+footer {
+  width: 100%;
+  height: 128px;
+  margin-top: -128px;
+}
+
+/* Прижать футер 3 */
+.clr {
+  height: 128px;
+}
+
+.footer-main-content{
+  padding-right: 0;
+  &-copyright p {
+    justify-content: center;
+    span:nth-child(3) {
+      width: 32%;
+    }
+  }
+}
+
+.rights span:nth-child(n+1) {
+  font-size: 22px;
+}
+
+.rights span:nth-child(3) {
+  font-size: 15px;
+}
+
+}

@@ -1175,7 +1175,7 @@ h2 {
         right: 16px;
         width: 33px;
         height: 33px;
-        background-image: url("img/icons/circle-arrow.svg");
+        background-image: url("../../img/icons/circle-arrow.svg");
         background-repeat: no-repeat;
         background-size: 70%; }
     .accordion-item__input:checked ~ .accordion-item__content {
@@ -1195,7 +1195,7 @@ h2 {
       right: 20px;
       width: 29px;
       height: 295px;
-      background-image: url("img/icons/arrow.svg");
+      background-image: url("../../img/icons/arrow.svg");
       background-repeat: no-repeat;
       background-size: 70%; }
   .accordion-item__content {

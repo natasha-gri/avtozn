@@ -28,7 +28,7 @@
             left: 0;
             width: 100%;
             min-height: 100vh;
-            background: url(../../../img/pattern-grid.png);
+            background: url(../../img/pattern-grid.png);
         }
     }
     &-wrap {
@@ -181,7 +181,7 @@
 /* 3-блок Отзывы */
 .reviews {
     background-color: $bluelight;
-    background-image: url(/img/left-texture.png), url(/img/rigth-texture.png);
+    background-image: url(img/left-texture.png), url(img/rigth-texture.png);
     background-position: top left, bottom right;
     background-repeat: no-repeat;
     background-size: 40%, 40%;
@@ -265,7 +265,7 @@
                 &_img{
                     width: 100px;
                     height: 118px;
-                    background: #000 url(/img/avatar-null.png) no-repeat center center;
+                    background: #000 url(img/avatar-null.png) no-repeat center center;
                     background-size: cover;
                     opacity: 0.8;
                     mix-blend-mode: screen;
@@ -284,28 +284,28 @@
 }
 
 .person1 {
-    background: #000 url(/img/avatar-null.png) no-repeat center center;
+    background: #000 url(img/avatar-null.png) no-repeat center center;
     background-size: cover;
     opacity: 0.7;
     mix-blend-mode: screen;
 }
 
 .person2 {
-    background: #000 url(/img/avatar-2.jpg) no-repeat center center;
+    background: #000 url(img/avatar-2.jpg) no-repeat center center;
     background-size: cover;
     opacity: 0.7;
     mix-blend-mode: screen;
 }
 
 .person3 {
-    background: #000 url(/img/avatar-3.jpg) no-repeat center center;
+    background: #000 url(img/avatar-3.jpg) no-repeat center center;
     background-size: cover;
     opacity: 0.7;
     mix-blend-mode: screen;
 }
 
 .person4 {
-    background: #000 url(/img/avatar-null.png) no-repeat center center;
+    background: #000 url(img/avatar-null.png) no-repeat center center;
     background-size: cover;
     opacity: 0.7;
     mix-blend-mode: screen;

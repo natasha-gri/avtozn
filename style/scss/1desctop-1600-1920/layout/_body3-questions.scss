@@ -10,7 +10,7 @@
         padding-top: 176px;
         padding-left: 4%;
         padding-bottom: 180px;
-        background-image: url(/img/video-bg.jpg);
+        background-image: url(img/video-bg.jpg);
         background-position: top;
         background-repeat: no-repeat;
         background-size: cover;
@@ -50,7 +50,7 @@
                 border-radius: 20px;
                 box-shadow: $box-shadow-container;
                 padding: 72px 10px 42px 10px;
-                background-image: url(/img/left-texture.png),url(/img/rigth-texture.png);
+                background-image: url(img/left-texture.png),url(img/rigth-texture.png);
                 background-position: top left, bottom right;
                 background-repeat: no-repeat;
                 background-size: 130%;
@@ -235,7 +235,7 @@
             right: 16px;
             width: 33px;
             height: 33px;
-            background-image: url('/img/icons/circle-arrow.svg');
+            background-image: url('img/icons/circle-arrow.svg');
             background-repeat: no-repeat;
             background-size: 70%;    
       }
@@ -259,7 +259,7 @@
       right: 20px;
       width: 29px;
       height: 295px;
-      background-image: url('/img/icons/arrow.svg');
+      background-image: url('img/icons/arrow.svg');
       background-repeat: no-repeat;
       background-size: 70%;
     }

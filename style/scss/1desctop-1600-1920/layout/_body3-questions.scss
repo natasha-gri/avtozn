@@ -10,7 +10,7 @@
         padding-top: 176px;
         padding-left: 4%;
         padding-bottom: 180px;
-        background-image: url(img/video-bg.jpg);
+        background-image: url(../../img/video-bg.jpg);
         background-position: top;
         background-repeat: no-repeat;
         background-size: cover;
@@ -50,7 +50,7 @@
                 border-radius: 20px;
                 box-shadow: $box-shadow-container;
                 padding: 72px 10px 42px 10px;
-                background-image: url(img/left-texture.png),url(img/rigth-texture.png);
+                background-image: url(../../img/left-texture.png),url(../../img/rigth-texture.png);
                 background-position: top left, bottom right;
                 background-repeat: no-repeat;
                 background-size: 130%;
@@ -119,7 +119,7 @@
     padding-left: 19%;
     padding-right: 15%;
     background-color: rgb(17, 19, 17);
-    background-image: url('/img/video-bg.jpg');
+    background-image: url('../../img/video-bg.jpg');
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;

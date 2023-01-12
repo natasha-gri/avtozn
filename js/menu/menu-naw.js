@@ -57,19 +57,19 @@ const loadMenu = () => {
 	if(someFunc())
   // 		arr.push(new MenuItem('main-mob.html', 'main-header-menu-wrp-link ripple light', '/img/icons/home.svg', 'Home')) 
 	// else
-		arr.push(new MenuItem('index.html', 'main-header-menu-wrp-link ripple light', '/img/icons/home.svg', 'Home')) 
-  	arr.push(new MenuItem('index.html', 'main-header-menu-wrp-link ripple light', '/img/icons/star.svg', 'почему мы'))
-  	arr.push(new MenuItem('services.html', 'main-header-menu-wrp-link ripple light', '/img/icons/handshake1.svg', 'услуги'))
+		arr.push(new MenuItem('index.html', 'main-header-menu-wrp-link ripple light', 'img/icons/home.svg', 'Home')) 
+  	arr.push(new MenuItem('index.html', 'main-header-menu-wrp-link ripple light', 'img/icons/star.svg', 'почему мы'))
+  	arr.push(new MenuItem('services.html', 'main-header-menu-wrp-link ripple light', 'img/icons/handshake1.svg', 'услуги'))
 
   	if(someFunc())
-  	arr.push(new Btn('tel: +73456271027', 'main-header-button ripple light', '/img/icons/phone-arrow.svg', 'заказать звонок'))
+  	arr.push(new Btn('tel: +73456271027', 'main-header-button ripple light', 'img/icons/phone-arrow.svg', 'заказать звонок'))
 	
-	arr.push(new MenuItem('questions.html', 'main-header-menu-wrp-link ripple light', '/img/icons/question.svg', 'вопросы'))
-	arr.push(new MenuItem('contacts.html', 'main-header-menu-wrp-link ripple light', '/img/icons/map-small.svg', 'контакты'))
+	arr.push(new MenuItem('questions.html', 'main-header-menu-wrp-link ripple light', 'img/icons/question.svg', 'вопросы'))
+	arr.push(new MenuItem('contacts.html', 'main-header-menu-wrp-link ripple light', 'img/icons/map-small.svg', 'контакты'))
 	/* arr.push(new MenuItem('/pages-mob/contacts-mob.html', 'main-header-menu-wrp-link', '/img/icons/map-small.svg', 'мобилка')) */
 
 	if(!someFunc()){
-		arr.push(new Btn('', 'main-header-button ripple light add__zv', '/img/icons/phone-arrow.svg', 'заказать звонок'))
+		arr.push(new Btn('', 'main-header-button ripple light add__zv', 'img/icons/phone-arrow.svg', 'заказать звонок'))
 	
 	}
 	let menu = new Menu('main-header-wrp', 'main-header-menu-wrp', arr);

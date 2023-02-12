@@ -189,6 +189,14 @@
         margin-top: -36px;
     }
 }
+.quotation-marks-sprite{
+  width: 66.346px; 
+  height: 53.594px;
+}
+.attention-sprite{
+  width: 31.268px; 
+  height: 38.216px;
+}
 
 /* услуги */
 .services{
@@ -209,9 +217,9 @@
         height: 50%;
     }
     &-svg5 {
-        height: 63%;
-        margin-right: -10px;
-        margin-bottom: -8px;
+      height: 56%;
+      margin-right: -10px;
+      margin-bottom: 2px;
     }
     &-svg6 {
         height: 41%;
@@ -252,16 +260,19 @@
 /* контакты */
 .contacts{
     &-svg1{
-    height:100%;
+      width: 45%;
+      height:100%;
     }
     &-svg2{
-        height:100%;
+      width: 55%;
+      height:100%;
     }
     &-svg3{
-        height: 100%;
-        width: 49%;
+      height: 100%;
+      width: 49%;
     }
     &-svg4{
-        height:100%;
+      width: 55%;
+      height:100%;
     }
 }

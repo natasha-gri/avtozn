@@ -69,7 +69,7 @@ const loadMenu = () => {
 	/* arr.push(new MenuItem('/pages-mob/contacts-mob.html', 'main-header-menu-wrp-link', '/img/icons/map-small.svg', 'мобилка')) */
 
 	if(!someFunc()){
-		arr.push(new Btn('', 'main-header-button ripple light add__zv', 'img/icons/phone-arrow.svg', 'заказать звонок'))
+		arr.push(new Btn('', 'main-header-button ripple light add__zv add__ad', 'img/icons/phone-arrow.svg', 'заказать звонок'))
 	
 	}
 	let menu = new Menu('main-header-wrp', 'main-header-menu-wrp', arr);

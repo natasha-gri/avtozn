@@ -1,28 +1,33 @@
   'use strict';
-const loadModal = () => {
-	if(document.querySelector('.add__ad')){
-	const modalAdd = document.querySelector('.modal__add'), //модальное окно
-	addAd = document.querySelector('.add__ad');	//кнопка
-	const modalClose = document.querySelector('.modal__close')
-	addAd.addEventListener('click', () => {
-		modalAdd.classList.remove('hide');
-	});
 
-	modalClose.addEventListener('click', (event) =>{
-	
-		modalAdd.classList.add('hide');
-	});
-	}
+// модалка для кнопки меню
+const modalAdd = document.querySelector('.modal__add'), //модалка
+  addAd = document.querySelector('.add__ad');	//кнопка
+  
 
-	const modalzvAdd = document.querySelector('.modal__zv'), //модальное окно
-	addzvAd = document.querySelector('.add__zv');	//кнопка
-	const modalzvClose = document.querySelector('#modal__zv__close')
-	addzvAd.addEventListener('click', () => {
-		modalzvAdd.classList.remove('hide');
-	});
+addAd.addEventListener('click', () => {
+  modalAdd.classList.remove('hide');
+});
 
-	modalzvClose.addEventListener('click', (event) =>{
-	
-		modalzvAdd.classList.add('hide');
-	});
-}
+modalAdd.addEventListener('click', (event) => {
+  const target = event.target;
+
+  if(target.classList.contains('modal__close') ||  target === modalAdd)
+    modalAdd.classList.add('hide');
+});
+
+// модалка для видео
+const modalVideoAdd = document.querySelector('.modal-video__add'), //модалка
+  addVideoAd = document.querySelector('.video__ad');	//кнопка
+  
+
+addVideoAd.addEventListener('click', () => {
+  modalVideoAdd.classList.remove('hide');
+});
+
+modalVideoAdd.addEventListener('click', (event) => {
+  const target = event.target;
+
+  if(target.classList.contains('modal__close') ||  target === modalVideoAdd)
+    modalVideoAdd.classList.add('hide');
+});

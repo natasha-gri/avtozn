@@ -158,18 +158,24 @@
     align-items: center;
     justify-content: center;
     &__block{
-        position: relative;
-        background-color: #000;
-        width: 75%;
-        height: 71%;
-        border-radius: 20px;
-            &-video{
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            border-radius: 20px;    
+      width: 75%;
+      height: 71%;
+      position: relative;
+      left: 36px;
+      background-color: #000;
+      border-radius: 20px;
+        &-video{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 20px;    
+      }
     }
-    }
+    &__phone{
+      width: 25%;
+      height: 25%;
+      padding: 50px;
+    }    
     &__close{
         width: 30px;
         height: 30px;
@@ -181,16 +187,14 @@
         top: 10px;
         right: 10px;
         border-radius: 5px;
+        color: white;
+        font-size: 29px;
+        cursor: pointer;
         &:hover{
             background-color: rgba(175, 175, 175, 0.42);
         }
         &:active{
             background-color: rgba(175, 175, 175, 0.23);
-        }
-        &-svg{
-            width: 70%;
-            height: 70%;
-            fill: $bg;
         }
     }
     

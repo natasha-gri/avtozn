@@ -1,0 +1,92 @@
+/* Красная кнопка */
+.main-header-button {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 25px;
+    left: 17px;
+    width: 80%;
+    background-color: $red;
+    border: none;
+    border-radius: 20px 20px 20px 0;
+    padding: 26px 0 24px 14px;
+    z-index: 100;
+    box-shadow: $box-shadow-container;
+    transition: box-shadow 0.3s linear;
+    text-decoration: none;
+    cursor: pointer;
+    &:hover {
+    }
+    img {
+        height: 34x;
+        margin-right: 10px;
+        filter: invert(1);
+    }
+    span {
+        display: block;
+    }
+}
+
+.chat{
+  padding: 20px;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 9px;
+  background-color: $blue;
+  border: none;
+  border-radius: 20px 20px 0px 20px;
+  box-shadow: $box-shadow-container;
+}
+
+/* Пагинация */
+.reviews {
+    position: relative;
+}
+
+/* Btn-ripple */
+.btn{
+    display: block;
+    width: 339px;
+    height: 50px;
+    padding: 16px 10px 18px 10px;
+    border: none;
+    border-radius: 15px;
+    background-color: $red;
+    cursor: pointer;
+    /* box-shadow: 1px 5px 8px 0 #00000029; */
+    transition: box-shadow 0.3s linear;
+    text-decoration: none;
+    text-align: center;
+    &:hover {
+        box-shadow: $box-shadow-container
+    }
+}
+.ripple{
+    &-container {
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 0;
+        width: 0;
+        pointer-events: none;
+        overflow: hidden;
+    }
+    &-effect {
+        margin-top: 0px;
+        margin-left: 0px;
+        width: 1px;
+        height: 1px;
+        background-color: rgba(0, 0, 0, 0.033);
+        transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        border-radius: 50%;
+        pointer-events: none;
+        &.light {
+        background-color: rgba(255, 255, 255, 0.15);
+        }
+    }
+}

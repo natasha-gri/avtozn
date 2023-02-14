@@ -1,0 +1,20 @@
+@media (max-width: 1024px) {
+  .main-header-button {
+    width: 67%;
+    padding: 26px 0 24px 0px;
+    justify-content: center;
+    &:hover {
+    }
+    img {
+      display: block;
+        height: 34x;
+        margin-right: 0px;
+        filter: invert(1);
+    }
+    span {
+        display: none;
+    }
+}
+
+/* end */
+}

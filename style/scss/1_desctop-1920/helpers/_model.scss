@@ -1,0 +1,74 @@
+.hide {
+    display: none;
+}
+
+/* ====== 1 Прижать футер */
+/* 1) */
+html, body {
+    height: 100%;
+}
+/* 2) */
+.main-container {
+    min-height: 100%;
+}
+/* 3) + цвет фона + центрирование содержимого*/
+footer {
+    height: 351px;
+    margin-top: -351px;
+    background-color: $blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/* 4) */
+.clr {
+    height: 351px;
+}
+// конец правила для прижатия футера
+
+// ====== 2 стили ширина и границы сетки
+/* ширина + границы сетки */
+.container-rows {
+    //width: 91.45%; // 1756/1920
+    width: 76%;
+    //margin: 0 auto;
+    margin: 0 auto 0 14%;
+    //outline: 1px solid rgb(216, 10, 206);
+    //box-sizing: border-box;
+}
+/* ширина + границы сетки ОБЛОЖКИ*/ 
+.container-header {
+    width: 81.7%;
+    margin-left: 14%;
+    //outline: 1px solid rgb(216, 10, 206);
+    //box-sizing: border-box;
+}
+@media (max-width: 768px){
+  .container-header {
+    margin-left: 10%;
+  }
+}
+
+// ====== 3 стили для отступов сверху-снизу секции
+.section-padding {
+    padding-top: 75px;
+    padding-bottom: 75px; /* установлено по 2 блоку главной */
+}
+$padding-bottom-section: 75px; /* установлено по 2 блоку главной */
+$padding-bottom-section-mob: 53px; /* установлено по 2 блоку главной */
+
+/* блок верстки */
+.section-block {
+    min-height: 200px;
+    @extend .section-padding;
+}
+
+/* отступы от хедера */
+.section-padding-header {
+    padding-top: 175px;
+}
+
+/* отступы от футера */
+.section-padding-footer {
+    padding-bottom: 70px;
+}

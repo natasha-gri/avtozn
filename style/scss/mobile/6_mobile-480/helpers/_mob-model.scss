@@ -1,0 +1,50 @@
+@media (max-width: 480px) {
+  
+  /* Прижать футер 2 */
+  footer {
+    width: 100%;
+    height: 316px;
+    margin-top: -316px;
+  }
+
+  /* Прижать футер 3 */
+  .clr {
+    height: 316px;
+  }
+
+  .main-container{
+    //border: 3px solid rgb(255, 140, 0);
+    //box-sizing: border-box;
+    }
+
+  .container-rows {
+    width: 88.33%; // 424/480
+    margin: 0 auto;
+  }
+
+  .container-header {
+    width: 87%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .section-padding-mob {
+    padding-top: 53px;
+    padding-bottom: 35px;/* установлено по n блоку */
+}
+
+.section-block {
+  /* min-height: 200px; */
+  @extend .section-padding-mob;
+}
+
+.section-padding-header {
+  padding-top: 100px;
+}
+
+.section-padding-footer {
+  padding-bottom: 60px;
+}
+
+/* end */
+}

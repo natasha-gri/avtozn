@@ -1,0 +1,19 @@
+@media (max-width : 1280px) {
+  .algorithm{
+    &-items{
+      justify-content: space-around;
+    }
+  }
+
+  .skills{
+    &-block{
+      width: 100%;
+    }
+  }
+
+  .accordion {
+    width: 100%;
+  }
+
+}
+

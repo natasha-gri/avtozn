@@ -1,0 +1,22 @@
+@media (max-width: 1024px) {
+  .worker-slider{
+    &-wrapper{
+      &-btn-prev{
+        top: 58%;
+      }
+      &-btn-next{
+        top: 58%;
+      }
+    }
+  }
+  .reviews-content-bulet{
+    padding: 30px 20px 27px 24px;
+    &-quotes {display: none;
+    }
+  }
+  .reviews-content-boxclient{
+    width: 66%;
+  }
+
+/* end */
+}

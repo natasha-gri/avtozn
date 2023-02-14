@@ -1,0 +1,18 @@
+@media (max-width: 360px) {
+  .button-txt span{
+    font-size: 0.6em;
+}
+.com-wish {
+  margin-top: 11px;
+  margin-bottom: 0;
+  &::after {
+      top: 74px;
+      right: 40%;
+  }
+}
+.com-job {
+  margin-top: 4px;
+}
+
+/* end */
+}

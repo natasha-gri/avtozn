@@ -1,0 +1,31 @@
+@media (max-width: 768px) {
+.footer-main {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    &-content {
+        display: flex;
+        flex-direction: column-reverse;
+        padding-left: 0px;
+        &-copyright{
+          margin-left: 25px;
+            p{
+                display: flex;
+                align-items: center;
+                span:nth-child(3){
+                    display: inline-block;
+                    width: 97px; 
+                    
+            } 
+            }
+            
+        }
+    }
+}
+.footer-main-content-sociallinks {
+  margin-left: 0;
+  margin-bottom: 5px;
+}
+
+/* end */
+}

@@ -1,0 +1,26 @@
+@media (max-width : 1280px) {
+  .cover{
+    &-wrap{
+      padding-left: 0px;
+    }
+  }
+
+  .reviews-content-bulet{
+    padding: 30px 20px 27px 24px;
+    &-quotes {
+      margin-right: 18px;
+    }
+  }
+
+  .practice{
+    &-img{
+      display: none;
+    }
+    &-content{
+      h2 {
+        text-align: center;
+    }
+    }
+  }
+}
+

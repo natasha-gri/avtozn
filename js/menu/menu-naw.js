@@ -46,8 +46,7 @@ class Btn {
 
 function someFunc() {
 	var w = window.innerWidth;
-	  return w < 480
-	
+	  return w < 769
   };
 
 const loadMenu = () => {
@@ -78,6 +77,6 @@ const loadMenu = () => {
 	else
 		menu1.classList.remove('hide')
 	menu1.innerHTML = menu.render();
-}
-
+};
+loadMenu()
 

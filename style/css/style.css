@@ -2234,7 +2234,7 @@ h2 {
   .cover-video {
     width: 100%;
     min-height: 100vh;
-    background-image: url("img/bg-img-mob.jpg"); }
+    background-image: url("../../img/bg-img-mob.jpg"); }
     .cover-video-vd {
       display: none; }
   .cover-wrap {

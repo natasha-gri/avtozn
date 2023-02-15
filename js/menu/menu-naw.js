@@ -61,7 +61,7 @@ const loadMenu = () => {
   	arr.push(new MenuItem('services.html', 'main-header-menu-wrp-link ripple light', 'img/icons/handshake1.svg', 'услуги'))
 
   	if(someFunc())
-  	arr.push(new Btn('tel: +73456271027', 'main-header-button ripple light', 'img/icons/phone-arrow.svg', 'заказать звонок'))
+  	arr.push(new Btn('', 'main-header-button ripple light', 'img/icons/phone-arrow.svg', 'заказать звонок'))
 	
 	arr.push(new MenuItem('questions.html', 'main-header-menu-wrp-link ripple light', 'img/icons/question.svg', 'вопросы'))
 	arr.push(new MenuItem('contacts.html', 'main-header-menu-wrp-link ripple light', 'img/icons/map-small.svg', 'контакты'))

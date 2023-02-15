@@ -15,6 +15,8 @@
 /* 2_desctop-от 1280 до 1600 */
 @import '2_desctop-1600/base/typography';
 @import '2_desctop-1600/components/buttons';
+@import '2_desctop-1600/layout/body2-services';
+@import '2_desctop-1600/layout/body3-questions';
 @import '2_desctop-1600/layout/body4-contacts';
 
 /* 3_desctop-от 1024 до 1280 */
@@ -31,12 +33,17 @@
 @import 'mobile/4_tablet-1024/components/buttons';
 @import 'mobile/4_tablet-1024/components/icons';
 @import 'mobile/4_tablet-1024/layout/body1-home';
+@import 'mobile/4_tablet-1024/layout/body3-questions';
 
 /* 5_tablet-от 480 до 768*/
 @import 'mobile/5_tablet-768/base/typography';
 @import 'mobile/5_tablet-768/layout/b1-tab-header'; 
 @import 'mobile/5_tablet-768/components/tab-buttons';
 @import 'mobile/5_tablet-768/layout/b2-mob-footer';
+@import 'mobile/5_tablet-768/layout/body1-home';
+@import 'mobile/5_tablet-768/layout/body2-services';
+@import 'mobile/5_tablet-768/layout/body3-questions';
+@import 'mobile/5_tablet-768/layout/mob-body4-contacts';
 
 /* 6_mob-от 360 до 480*/
 @import 'mobile/6_mobile-480/helpers/mob-variables';
@@ -57,5 +64,6 @@
 @import 'mobile/7_mobile-360/components/mob-buttons';
 @import 'mobile/7_mobile-360/base/mob-typography';
 @import 'mobile/7_mobile-360/layout/mob-body1-home';
+@import 'mobile/7_mobile-360/layout/mob-body4-contacts';
 
 @import 'slider';

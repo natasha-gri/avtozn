@@ -21,6 +21,7 @@
         justify-content: space-evenly;
         margin-top: -100px;
         &-item{
+          width: 23%;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -46,7 +47,7 @@
                 align-items: center;
                 position: absolute;
                 top: 41px;
-                width: 259px;
+                width: 100%;
                 min-height: 327px;
                 border-radius: 20px;
                 box-shadow: $box-shadow-container;
@@ -132,6 +133,7 @@
         margin: 59px auto 0 auto;
         background-color: #fff;
         border-radius: 50%;
+        cursor: pointer;
         &:before {
             content: "";
             display: inline-block;

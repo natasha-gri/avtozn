@@ -3,11 +3,11 @@ new Swiper('.v-slider_team',{
   slidesPerGroup: 1,
   loop: true,
   spaceBetween: 20,
-  // autoplay: {
-  //   delay: 4000,
-  //   stopOnLastSlide: true,
-  //   disableOnInteraction: false
-  // },
+  autoplay: {
+    delay: 4000,
+    stopOnLastSlide: true,
+    disableOnInteraction: false
+  },
   navigation: {
     prevEl: '.worker-slider-wrapper-btn-prev', 
     nextEl: '.worker-slider-wrapper-btn-next'

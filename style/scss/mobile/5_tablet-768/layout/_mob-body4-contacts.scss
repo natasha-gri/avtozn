@@ -1,4 +1,4 @@
-@media (max-width: 480px) {
+@media (max-width: 740px) {
 
   .contacts{
     flex-direction: column;
@@ -13,14 +13,14 @@
         }
         &-cols{
             flex-direction: column;
-            width: 100%;
+            width: 70%;
             margin: 0 auto;
             &-col{
                 width: 100%;
                 &-item{
                 min-height: 106px;
                 &-svg{
-                    width: 16vw;
+                    width: 30%;
                     height: 42px;
                 }
                 &-text{

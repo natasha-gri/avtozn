@@ -20,15 +20,15 @@
 .services-items{
     &-col1{
         &-item {
-            display: flex;
-            flex-direction: column;
-            flex-direction: column-reverse;
+            // display: flex;
+            // flex-direction: column;
+            // flex-direction: column-reverse;
             min-height: 164px;
             & > p{
                 font-size: 15px;
                 line-height: 1.25;
                 letter-spacing: 0.8px;
-                text-align: center;
+                // text-align: center;
             }
             &:not(.outer){
                 &:before{
@@ -39,14 +39,14 @@
             }
         }
         &-itemreverce {
-            display: flex;
-            flex-direction: column;
+            // display: flex;
+            // flex-direction: column;
             min-height: 164px;
             & > p{
                 font-size: 15px;
                 line-height: 1.25;
                 letter-spacing: 0.8px;
-                text-align: center;
+                // text-align: center;
             }
             &:not(.outer){
                 &:before{
@@ -60,10 +60,9 @@
 }
 
 .center{
-    width: 0.2%;
     height: 479px;
     margin-top: 1px;
-    border-right: 2px dotted $lightgrey;
+    
 }
 
 .services-items-item-ccircle-red {

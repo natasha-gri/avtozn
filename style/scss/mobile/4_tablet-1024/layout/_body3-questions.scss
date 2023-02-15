@@ -1,23 +1,32 @@
-@media (max-width: 480px) {
-/* 1 блок */
-.algorithm {
-    height: 100%;
-    padding-top: 50px;
-    padding-bottom: 0;
-    &-order-bg{
-        padding-top: 44px;
-        padding-bottom: 102px;
-        padding-left: 4%;
-        padding-right: 4%;
+@media (max-width : 1024px) {
+  .algorithm-items-item{
+    width: 31%;
+    &-content{
+      width: 100%;
     }
+  }
+}
+
+@media (max-width : 800px){
+  .algorithm {
+    height: 100%;
+    // padding-top: 50px;
+    padding-bottom: 0;
+    // &-order-bg{
+    //     padding-top: 44px;
+    //     padding-bottom: 102px;
+    //     padding-left: 4%;
+    //     padding-right: 4%;
+    //}
     &-items{
-        margin-top: -55px;
+        margin-top: -115px;
         &-item{
             display: none;
         }
         &-mob{
             display: block;
-            width: 92%;
+            width: 80%;
+            margin-left: 10%;
             padding: 9% 3% 11% 3%;
             border-radius: 20px;
             background-image: url(/img/left-texture.png), url(/img/rigth-texture.png);
@@ -96,89 +105,4 @@
         }
     }
 }
-
-/* что делает */
-.skills{
-    margin-top: 0px;
-    // padding-top: 21px;
-    padding-bottom: 0;
-    h2{
-        margin-bottom: 32px;
-    }
-    &-block{
-        width: 100%;
-        flex-direction: column;
-        &-col{
-            &-item{
-                min-height: 98px;
-                &-svg{
-                    width: 30%;
-                    height: 98px;
-                    display: flex;
-                    align-items: flex-start;
-                }
-                &-content{
-                    width: 70%;
-                }
-            }
-        }
-    }
-}
-/* видео */
-.video {
-    min-height: 280px;
-    padding-left: 0;
-    padding-right: 0;
-    &-link{
-        min-width: 52px;
-        min-height: 52px;
-        margin: 25px auto 0 auto;
-        &:before{
-            top: 15px;
-            left: 20px;
-        }
-    }
-}
-
-.modal {
-    &__block{
-        width: 93%;
-        height: 77%;
-    }    
-}
-
-/* аккордеон */
-.accordion {
-    width: 100%;
-    padding-bottom: 18px;
-    h2{
-        margin-bottom: 46px;
-    }
-}
-.accordion-item {
-    margin-bottom: -5px;
-    &__input {
-      &:checked ~ .accordion-item__trigger{
-          &::after {
-            right: 6px;
-        }
-      }
-      &:checked ~ .accordion-item__content{
-        padding: 0 17px 27px 17px;
-      }  
-    }
-    &__trigger {
-        padding: 15px 40px 15px 16px;
-        &::after{
-            top: 19px;
-            right: 8px;
-        }
-    }
-    &__content {
-        text-align: left;
-    }
-}
-
-
-/* end */
 }

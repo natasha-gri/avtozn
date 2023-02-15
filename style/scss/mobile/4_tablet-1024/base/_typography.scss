@@ -2,12 +2,18 @@
   .cover-wrap-h1 {
     font-size: 8vw;
   }
+  .main-text{
+    font-size: 16px;
+  }
 }
 
-@media (max-width: 886px){
+@media (max-width: 880px){
   .main-header-menu-wrp-link {
     p {display: none;
     }
-}
+  }
+  .main-text{
+    font-size: 14px;
+  }
 }
 

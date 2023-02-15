@@ -2,6 +2,9 @@
   .algorithm{
     &-items{
       justify-content: space-around;
+      &-item{
+        width: 31%;
+      }
     }
   }
 

@@ -61,7 +61,7 @@
     &-svg2{
         fill: $blue;
         height: 65%;
-        width: 48%;
+        width: 42%;
         margin-top: 10px;
         margin-left: 27px;
     }
@@ -77,6 +77,15 @@
         width: 87%;
         margin-top: 9px;
     }
+}
+@media (max-width: 360px){
+  .skills-svg2 {
+  fill: #0044a6;
+  height: 65%;
+  width: 47%;
+  margin-top: 10px;
+  margin-left: 27px;
+}
 }
 
 /* контакты */

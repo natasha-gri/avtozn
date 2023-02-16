@@ -1556,7 +1556,7 @@ h2 {
 .skills-svg2 {
   fill: #0044a6;
   height: 65%;
-  width: 69%;
+  width: 43%;
   margin-top: 13px;
   margin-left: 26px; }
 .skills-svg3 {
@@ -2677,7 +2677,7 @@ h2 {
   .skills-svg2 {
     fill: #0044a6;
     height: 65%;
-    width: 48%;
+    width: 42%;
     margin-top: 10px;
     margin-left: 27px; }
   .skills-svg3 {
@@ -2689,8 +2689,15 @@ h2 {
     fill: #0044a6;
     height: 50%;
     width: 87%;
-    margin-top: 9px; }
-
+    margin-top: 9px; } }
+@media (max-width: 480px) and (max-width: 360px) {
+  .skills-svg2 {
+    fill: #0044a6;
+    height: 65%;
+    width: 47%;
+    margin-top: 10px;
+    margin-left: 27px; } }
+@media (max-width: 480px) {
   /* контакты */
   .contacts-svg1 {
     height: 168%;
